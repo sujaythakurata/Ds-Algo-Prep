@@ -1,0 +1,1 @@
+{"name":"Local: a_8","url":"/home/sujay/Desktop/DS_ALGO/ARRAY/a_8.cpp","tests":[{"id":1655438934135,"input":"9 3\n7 2 3 0 5 10 3 12 18\n0 4\n4 7\n7 8","output":"0\n3\n12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sujay/Desktop/DS_ALGO/ARRAY/a_8.cpp","group":"local","local":true}

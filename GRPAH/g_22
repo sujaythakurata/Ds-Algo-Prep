@@ -1,0 +1,49 @@
+/*
+	*Detect Cycle in a Directed Graph
+	*T.c -> O(n+e)
+	*S.c -> O(n)
+
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+bool dfs(vector<int>adj[], int u, vector<bool>&vs, vector<bool>&recStack){
+	vs[u] = true;
+	recStack[u] = true;
+	for(auto j = adj[u].begin(); j != adj[u].end(); j++){
+		if(!vs[*j] && dfs(adj, *j,vs, recStack))
+			return true;
+		if(recStack[*j] && *j != u)
+			return true;
+	}
+	recStack[u] = false;
+	return false;
+
+}
+
+int main(){
+	int n, e, u, v;
+	bool flag = false;
+	cin>>n>>e;
+	vector<int>adj[n];
+	vector<bool>vs(n, false);
+	vector<bool>recStack(n, false);
+	
+	for(int i = 0; i < e; i++){
+		cin>>u>>v;
+		adj[u].push_back(v);
+	}
+	
+	for(int i = 0 ; i < n; i++){
+		if(!vs[i] && dfs(adj, i, vs, recStack))
+			flag = true;
+	}
+	
+	if(flag)
+		cout<<"true";
+	else
+		cout<<"false";
+
+	return 0;
+}

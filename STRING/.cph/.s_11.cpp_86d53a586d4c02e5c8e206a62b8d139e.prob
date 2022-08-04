@@ -1,0 +1,1 @@
+{"name":"Local: s_11","url":"/home/sujay/Desktop/DS_ALGO/STRING/s_11.cpp","tests":[{"id":1658343490487,"input":"AABAACAADAABAAABAA\nAABA","output":"Found Index: 0\nFound Index: 9\nFound Index: 13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sujay/Desktop/DS_ALGO/STRING/s_11.cpp","group":"local","local":true}

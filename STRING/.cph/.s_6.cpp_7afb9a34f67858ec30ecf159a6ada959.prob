@@ -1,0 +1,1 @@
+{"name":"Local: s_6","url":"/home/sujay/Desktop/DS_ALGO/STRING/s_6.cpp","tests":[{"id":1657556361876,"input":"abbc","output":"3"},{"id":1657556371068,"input":"abcabc","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sujay/Desktop/DS_ALGO/STRING/s_6.cpp","group":"local","local":true}

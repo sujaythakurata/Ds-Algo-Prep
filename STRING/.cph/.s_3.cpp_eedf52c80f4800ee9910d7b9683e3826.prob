@@ -1,0 +1,1 @@
+{"name":"Local: s_3","url":"/home/sujay/Desktop/DS_ALGO/STRING/s_3.cpp","tests":[{"id":1656441503818,"input":"1212243660","output":"Sum String"},{"id":1656441514935,"input":"123456787","output":"Not a Sum string"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sujay/Desktop/DS_ALGO/STRING/s_3.cpp","group":"local","local":true}

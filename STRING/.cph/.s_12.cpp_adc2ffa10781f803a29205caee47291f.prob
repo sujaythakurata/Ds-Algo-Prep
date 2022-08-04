@@ -1,0 +1,1 @@
+{"name":"Local: s_12","url":"/home/sujay/Desktop/DS_ALGO/STRING/s_12.cpp","tests":[{"id":1658427157490,"input":"abaaabcd\nabc","output":"Pattern found: 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sujay/Desktop/DS_ALGO/STRING/s_12.cpp","group":"local","local":true}
